@@ -15,6 +15,17 @@
 		32A767D81FA76B6900B46368 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A767D71FA76B6900B46368 /* main.m */; };
 		32A767E21FA76B6900B46368 /* WBTabbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A767E11FA76B6900B46368 /* WBTabbarTests.m */; };
 		32A767ED1FA76B6900B46368 /* WBTabbarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A767EC1FA76B6900B46368 /* WBTabbarUITests.m */; };
+		32A7680A1FA76B8000B46368 /* TabbarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A767FC1FA76B8000B46368 /* TabbarButton.m */; };
+		32A7680B1FA76B8000B46368 /* TabBarCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A767FE1FA76B8000B46368 /* TabBarCenterButton.m */; };
+		32A7680C1FA76B8000B46368 /* UITabBarItem+BadgeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A768001FA76B8000B46368 /* UITabBarItem+BadgeColor.m */; };
+		32A7680D1FA76B8000B46368 /* WBBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A768021FA76B8000B46368 /* WBBadgeView.m */; };
+		32A7680E1FA76B8000B46368 /* WBTabBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 32A768031FA76B8000B46368 /* WBTabBar.bundle */; };
+		32A7680F1FA76B8000B46368 /* WBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A768051FA76B8000B46368 /* WBTabBar.m */; };
+		32A768101FA76B8000B46368 /* WBTabBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A768071FA76B8000B46368 /* WBTabBarConfig.m */; };
+		32A768111FA76B8000B46368 /* WBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A768091FA76B8000B46368 /* WBTabBarController.m */; };
+		32A768141FA76BB300B46368 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A768131FA76BB300B46368 /* MineViewController.m */; };
+		32A768171FA76BEC00B46368 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A768161FA76BEC00B46368 /* CenterViewController.m */; };
+		32A7681B1FA76C3700B46368 /* PlusAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A7681A1FA76C3700B46368 /* PlusAnimate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,27 @@
 		32A767E81FA76B6900B46368 /* WBTabbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBTabbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A767EC1FA76B6900B46368 /* WBTabbarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBTabbarUITests.m; sourceTree = "<group>"; };
 		32A767EE1FA76B6900B46368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A767FB1FA76B8000B46368 /* TabbarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarButton.h; sourceTree = "<group>"; };
+		32A767FC1FA76B8000B46368 /* TabbarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarButton.m; sourceTree = "<group>"; };
+		32A767FD1FA76B8000B46368 /* TabBarCenterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarCenterButton.h; sourceTree = "<group>"; };
+		32A767FE1FA76B8000B46368 /* TabBarCenterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarCenterButton.m; sourceTree = "<group>"; };
+		32A767FF1FA76B8000B46368 /* UITabBarItem+BadgeColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+BadgeColor.h"; sourceTree = "<group>"; };
+		32A768001FA76B8000B46368 /* UITabBarItem+BadgeColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+BadgeColor.m"; sourceTree = "<group>"; };
+		32A768011FA76B8000B46368 /* WBBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBBadgeView.h; sourceTree = "<group>"; };
+		32A768021FA76B8000B46368 /* WBBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBBadgeView.m; sourceTree = "<group>"; };
+		32A768031FA76B8000B46368 /* WBTabBar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WBTabBar.bundle; sourceTree = "<group>"; };
+		32A768041FA76B8000B46368 /* WBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBTabBar.h; sourceTree = "<group>"; };
+		32A768051FA76B8000B46368 /* WBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTabBar.m; sourceTree = "<group>"; };
+		32A768061FA76B8000B46368 /* WBTabBarConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBTabBarConfig.h; sourceTree = "<group>"; };
+		32A768071FA76B8000B46368 /* WBTabBarConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTabBarConfig.m; sourceTree = "<group>"; };
+		32A768081FA76B8000B46368 /* WBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBTabBarController.h; sourceTree = "<group>"; };
+		32A768091FA76B8000B46368 /* WBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTabBarController.m; sourceTree = "<group>"; };
+		32A768121FA76BB300B46368 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		32A768131FA76BB300B46368 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		32A768151FA76BEC00B46368 /* CenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		32A768161FA76BEC00B46368 /* CenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		32A768191FA76C3700B46368 /* PlusAnimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlusAnimate.h; sourceTree = "<group>"; };
+		32A7681A1FA76C3700B46368 /* PlusAnimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlusAnimate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +133,21 @@
 		32A767C71FA76B6900B46368 /* WBTabbar */ = {
 			isa = PBXGroup;
 			children = (
+				32A767FA1FA76B8000B46368 /* WBTabBar */,
 				32A767C81FA76B6900B46368 /* AppDelegate.h */,
 				32A767C91FA76B6900B46368 /* AppDelegate.m */,
 				32A767CB1FA76B6900B46368 /* ViewController.h */,
 				32A767CC1FA76B6900B46368 /* ViewController.m */,
+				32A768121FA76BB300B46368 /* MineViewController.h */,
+				32A768131FA76BB300B46368 /* MineViewController.m */,
+				32A768151FA76BEC00B46368 /* CenterViewController.h */,
+				32A768161FA76BEC00B46368 /* CenterViewController.m */,
 				32A767CE1FA76B6900B46368 /* Main.storyboard */,
 				32A767D11FA76B6900B46368 /* Assets.xcassets */,
 				32A767D31FA76B6900B46368 /* LaunchScreen.storyboard */,
 				32A767D61FA76B6900B46368 /* Info.plist */,
 				32A767D71FA76B6900B46368 /* main.m */,
+				32A768181FA76C3700B46368 /* PublishAnimate */,
 			);
 			path = WBTabbar;
 			sourceTree = "<group>";
@@ -130,6 +168,37 @@
 				32A767EE1FA76B6900B46368 /* Info.plist */,
 			);
 			path = WBTabbarUITests;
+			sourceTree = "<group>";
+		};
+		32A767FA1FA76B8000B46368 /* WBTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				32A767FB1FA76B8000B46368 /* TabbarButton.h */,
+				32A767FC1FA76B8000B46368 /* TabbarButton.m */,
+				32A767FD1FA76B8000B46368 /* TabBarCenterButton.h */,
+				32A767FE1FA76B8000B46368 /* TabBarCenterButton.m */,
+				32A767FF1FA76B8000B46368 /* UITabBarItem+BadgeColor.h */,
+				32A768001FA76B8000B46368 /* UITabBarItem+BadgeColor.m */,
+				32A768011FA76B8000B46368 /* WBBadgeView.h */,
+				32A768021FA76B8000B46368 /* WBBadgeView.m */,
+				32A768031FA76B8000B46368 /* WBTabBar.bundle */,
+				32A768041FA76B8000B46368 /* WBTabBar.h */,
+				32A768051FA76B8000B46368 /* WBTabBar.m */,
+				32A768061FA76B8000B46368 /* WBTabBarConfig.h */,
+				32A768071FA76B8000B46368 /* WBTabBarConfig.m */,
+				32A768081FA76B8000B46368 /* WBTabBarController.h */,
+				32A768091FA76B8000B46368 /* WBTabBarController.m */,
+			);
+			path = WBTabBar;
+			sourceTree = "<group>";
+		};
+		32A768181FA76C3700B46368 /* PublishAnimate */ = {
+			isa = PBXGroup;
+			children = (
+				32A768191FA76C3700B46368 /* PlusAnimate.h */,
+				32A7681A1FA76C3700B46368 /* PlusAnimate.m */,
+			);
+			path = PublishAnimate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32A7680E1FA76B8000B46368 /* WBTabBar.bundle in Resources */,
 				32A767D51FA76B6900B46368 /* LaunchScreen.storyboard in Resources */,
 				32A767D21FA76B6900B46368 /* Assets.xcassets in Resources */,
 				32A767D01FA76B6900B46368 /* Main.storyboard in Resources */,
@@ -265,9 +335,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32A7680B1FA76B8000B46368 /* TabBarCenterButton.m in Sources */,
 				32A767CD1FA76B6900B46368 /* ViewController.m in Sources */,
+				32A7680F1FA76B8000B46368 /* WBTabBar.m in Sources */,
+				32A7680C1FA76B8000B46368 /* UITabBarItem+BadgeColor.m in Sources */,
+				32A7680A1FA76B8000B46368 /* TabbarButton.m in Sources */,
+				32A768171FA76BEC00B46368 /* CenterViewController.m in Sources */,
+				32A768141FA76BB300B46368 /* MineViewController.m in Sources */,
+				32A768101FA76B8000B46368 /* WBTabBarConfig.m in Sources */,
 				32A767D81FA76B6900B46368 /* main.m in Sources */,
 				32A767CA1FA76B6900B46368 /* AppDelegate.m in Sources */,
+				32A7681B1FA76C3700B46368 /* PlusAnimate.m in Sources */,
+				32A768111FA76B8000B46368 /* WBTabBarController.m in Sources */,
+				32A7680D1FA76B8000B46368 /* WBBadgeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

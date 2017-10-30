@@ -7,8 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "MineViewController.h"
+#import "WBTabBarController.h"
+#import "CenterViewController.h"
+#import "PlusAnimate.h"
 
-@interface AppDelegate ()
+@interface AppDelegate ()<WBTabBarDelegate>
 
 @end
 
@@ -16,8 +21,69 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    WBTabBarController * tabbar = [[WBTabBarController alloc]init];
+    
+    
+    /**
+     *  配置外观
+     */
+    [WBTabBarConfig shared].selectedTextColor = [UIColor orangeColor];
+    [WBTabBarConfig shared].textColor = [UIColor grayColor];
+    [WBTabBarConfig shared].backgroundColor = [UIColor whiteColor];
+    [WBTabBarConfig shared].selectIndex = 0;
+    [WBTabBarConfig shared].centerBtnIndex = 1;
+    
+    
+    /**
+     *  style 1 (中间按钮突出 ， 设为按钮 , 底部有文字 ， 闲鱼)
+     */
+    UINavigationController *nav1 = [[UINavigationController alloc]initWithRootViewController:[[MineViewController alloc] init]];
+    [tabbar addChildController:nav1 title:@"发现" imageName:@"Btn01" selectedImageName:@"SelectBtn01"];
+    UINavigationController *nav2 = [[UINavigationController alloc]initWithRootViewController:[ViewController new]];
+    [tabbar addChildController:nav2 title:@"我的" imageName:@"Btn02" selectedImageName:@"SelectBtn02"];
+    [tabbar addCenterController:nil bulge:YES title:@"发布" imageName:@"post_normal" selectedImageName:@"post_normal"];
+    
+    
+    
+    /**
+     *  style 2  (中间按钮不突出 ， 设为控制器 ,底部无文字  , 微博)
+     */
+    //    UINavigationController *nav1 = [[UINavigationController alloc]initWithRootViewController:[ViewController new]];
+    //    [tabbar addChildController:nav1 title:@"消息" imageName:@"tabbar_mainframe" selectedImageName:@"tabbar_mainframeHL"];
+    //    UINavigationController *nav2 = [[UINavigationController alloc]initWithRootViewController:[ViewController2 new]];
+    //    [tabbar addChildController:nav2 title:@"朋友圈" imageName:@"tabbar_discover" selectedImageName:@"tabbar_discoverHL"];
+    //    [tabbar addCenterController:[ViewController2 new] bulge:NO title:nil imageName:@"tabbar_centerplus_selected" selectedImageName:@"tabbar_centerplus_selected"];
+    
+    
+    
+    
+    /**
+     *  style 3  (无中间按钮 ，普通样式)
+     */
+    //    UINavigationController *nav1 = [[UINavigationController alloc]initWithRootViewController:[ViewController new]];
+    //    [tabbar addChildController:nav1 title:@"消息" imageName:@"tabbar_mainframe" selectedImageName:@"tabbar_mainframeHL"];
+    //    UINavigationController *nav2 = [[UINavigationController alloc]initWithRootViewController:[ViewController new]];
+    //    [tabbar addChildController:nav2 title:@"朋友圈" imageName:@"tabbar_discover" selectedImageName:@"tabbar_discoverHL"];
+    
+    self.window.rootViewController = tabbar;
+    [self.window makeKeyAndVisible];
     return YES;
+}
+
+#pragma mark - WBTabBarDelegate
+//中间按钮点击
+- (void)tabbar:(WBTabBar *)tabbar clickForCenterButton:(TabBarCenterButton *)centerButton{
+    [PlusAnimate standardPublishAnimateWithView:centerButton];
+}
+//是否允许切换
+- (BOOL)tabBar:(WBTabBar *)tabBar willSelectIndex:(NSInteger)index{
+    NSLog(@"将要切换到---> %ld",index);
+    return YES;
+}
+//通知切换的下标
+- (void)tabBar:(WBTabBar *)tabBar didSelectIndex:(NSInteger)index{
+    NSLog(@"切换到---> %ld",index);
 }
 
 
@@ -49,3 +115,4 @@
 
 
 @end
+
