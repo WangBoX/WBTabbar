@@ -46,7 +46,7 @@
  *  ----> [WBTabBarConfig shared]
  
  *  源代码地址
- *  https://github.com/zhangchunyu2016/WBTabBar
+ *  https://github.com/WangBoX/WBTabbar.git
  */
 
 
