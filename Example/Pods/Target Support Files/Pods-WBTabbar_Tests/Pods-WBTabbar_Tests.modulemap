@@ -1,0 +1,6 @@
+framework module Pods_WBTabbar_Tests {
+  umbrella header "Pods-WBTabbar_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

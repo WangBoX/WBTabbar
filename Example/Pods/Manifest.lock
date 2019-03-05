@@ -1,0 +1,16 @@
+PODS:
+  - WBTabbar (0.1.0)
+
+DEPENDENCIES:
+  - WBTabbar (from `../`)
+
+EXTERNAL SOURCES:
+  WBTabbar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WBTabbar: 29648b2964454ae02fe901c88343ff2febee2393
+
+PODFILE CHECKSUM: ee786bc5947502ccd314af2a25fe5ae654fb861a
+
+COCOAPODS: 1.6.0.beta.2

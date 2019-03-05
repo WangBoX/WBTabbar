@@ -1,0 +1,931 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0367DA1C4AFB48B68BB4C4E89F06010C /* Pods-WBTabbar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE923205AF77A0411F774817FCD965A /* Pods-WBTabbar_Tests-dummy.m */; };
+		06DB4AFB761273117DB594887A97371F /* WBTabbar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B62C5312ECF22031716F55C26AC2753 /* WBTabbar-dummy.m */; };
+		0F6F024E5EEC1F97B52520758C67AE99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		1BAED853BC657AB0DA35FB6DF1102B09 /* WBBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FD489D5F8A0311DF2CFD0AB536FD71 /* WBBadgeView.m */; };
+		2F85AACE1827CB5AF2DA49FB43870D1C /* TabBarCenterButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 395D85F93098189644FEF0BC97A8C332 /* TabBarCenterButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32EFB48B7A08B49A55DAE84A074C9B4B /* TabbarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 95267E675D4BE9126F54950DAA855340 /* TabbarButton.m */; };
+		33FF400BF27A8FD3DBFF9CEDEBF0F3BC /* WBTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 66FDA1FD5D1AAFC5B4A9D738B68CE7AE /* WBTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		354B6D65900F1DF8C0C537D756A4BE13 /* WBTabBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D89B54C4E750B6211FB052553A054CA4 /* WBTabBarConfig.m */; };
+		442E7B97CEC19AC280376643756E8E91 /* UITabBarItem+BadgeColor.h in Headers */ = {isa = PBXBuildFile; fileRef = F871DA8645362B9C3035599D3E4E067E /* UITabBarItem+BadgeColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		547B561672329B5CA43E4F21FAF3E6E9 /* WBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D2B52DF5BE4A309870A9B02CB90A4D /* WBTabBarController.m */; };
+		665746C246A0DDBF33A90B10343DB343 /* UITabBarItem+BadgeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0DF33CB48833C27D7A30F067B1C770 /* UITabBarItem+BadgeColor.m */; };
+		6E2C4140525004ED1B8136844D13E509 /* Pods-WBTabbar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10591049AA8CA30121F0210ECD0F0356 /* Pods-WBTabbar_Example-dummy.m */; };
+		7C2C1A3D017BEA1F1CA50D724DA8B968 /* WBBadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = A02173873E968CD88E70E989D64370FD /* WBBadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D42DEF855A1E24EAA71D5561F1B82EA /* Pods-WBTabbar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B17A3452A9D34CF99026A470E39D24 /* Pods-WBTabbar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D30A29923DD292943A964C4555A05CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		A5D9B154363AFD17968F12FA6CA79D88 /* WBTabbar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D9A7A8936E5A5D7F4C125CC0366267CE /* WBTabbar.bundle */; };
+		AB58C25C8CC8B8D598296C9C50333917 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		ACCF0C9A2EC45685F52B284D3C139CC6 /* Pods-WBTabbar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8244530005C17EE4C814587C51DCE4CC /* Pods-WBTabbar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B838E3FF7C28A6EA3C11CCE6A482406F /* TabBarCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 946993DC41A73000CE8F9483D1489E41 /* TabBarCenterButton.m */; };
+		C268A7297F545D32AFAC8DF51FAE0F44 /* WBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BD7B5721554E9905255096A90075E8 /* WBTabBar.m */; };
+		CB7B96E562B8DD65047EA5AA49D06F3A /* WBTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 33A28242BCEE6EBD9B9623BB5AC77F6E /* WBTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D14E973670133F7CA6FBF4098377E2E0 /* TabbarButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 857AD10BC567ABDEF9ECA7DA0F07F822 /* TabbarButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2EEA1CC794D67B60320F46B3E679E9C /* WBTabbar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B695455C08A540D56741528C8D4D31C /* WBTabbar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE13A1887839E40BF0DA627FE8819551 /* WBTabBarConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E31B396AF7B9F81FBDB1E5CCD03DBA2 /* WBTabBarConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61368A178917F8F780B3B109E34F12C /* WBTabBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2A44E54C407DCCD4C4B2895944D90EB5 /* WBTabBar.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67D2465B5F21D58606E1F9EA46F74BEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DC2F5F7AC7E29760E0982D504626250;
+			remoteInfo = WBTabbar;
+		};
+		C37DE128D391073797A4546FDCC12EC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A11B24DB8C24D5EE832166D91DAA10EE;
+			remoteInfo = "WBTabbar-WBTabbar";
+		};
+		C5D923C89F2A11E3EC8C6706D898B740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAF139E2E50301AC535C5565D6AC86B0;
+			remoteInfo = "Pods-WBTabbar_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033E67EC8C7C8B419565F2E980823CA4 /* ResourceBundle-WBTabbar-WBTabbar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WBTabbar-WBTabbar-Info.plist"; sourceTree = "<group>"; };
+		09BD7B5721554E9905255096A90075E8 /* WBTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WBTabBar.m; path = WBTabbar/Classes/WBTabBar.m; sourceTree = "<group>"; };
+		0D9AC9EDEA01A6033629A9E8772A41BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		10591049AA8CA30121F0210ECD0F0356 /* Pods-WBTabbar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WBTabbar_Example-dummy.m"; sourceTree = "<group>"; };
+		1144BE5CAB327E224B4AD4CE2A3A2DAA /* Pods-WBTabbar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBTabbar_Tests-Info.plist"; sourceTree = "<group>"; };
+		20B17A3452A9D34CF99026A470E39D24 /* Pods-WBTabbar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WBTabbar_Example-umbrella.h"; sourceTree = "<group>"; };
+		2A44E54C407DCCD4C4B2895944D90EB5 /* WBTabBar.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WBTabBar.bundle; path = WBTabbar/Assets/WBTabBar.bundle; sourceTree = "<group>"; };
+		2B695455C08A540D56741528C8D4D31C /* WBTabbar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBTabbar-umbrella.h"; sourceTree = "<group>"; };
+		2CA0D7F9353007D33BA578695D1441E7 /* Pods-WBTabbar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBTabbar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		33A28242BCEE6EBD9B9623BB5AC77F6E /* WBTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBTabBarController.h; path = WBTabbar/Classes/WBTabBarController.h; sourceTree = "<group>"; };
+		34206EE0577A29D5E749CB2E9E894FCF /* WBTabbar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBTabbar-prefix.pch"; sourceTree = "<group>"; };
+		35DC0253BD1D8C2090D8B632FA6E4371 /* Pods-WBTabbar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBTabbar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		38EDDAF342065341B0BE571099FD2988 /* WBTabbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WBTabbar.framework; path = WBTabbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		395D85F93098189644FEF0BC97A8C332 /* TabBarCenterButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TabBarCenterButton.h; path = WBTabbar/Classes/TabBarCenterButton.h; sourceTree = "<group>"; };
+		42DC503BA8448EE788EE1CEF762267D3 /* WBTabbar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WBTabbar-Info.plist"; sourceTree = "<group>"; };
+		4B62C5312ECF22031716F55C26AC2753 /* WBTabbar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WBTabbar-dummy.m"; sourceTree = "<group>"; };
+		536974A8F1913BC6AE87C440C3856FDA /* WBTabbar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WBTabbar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5DADDC09B63AE038095E1CEDE960899A /* Pods-WBTabbar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WBTabbar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5F083BAC9F8F02A8112260DA98966DFB /* Pods-WBTabbar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBTabbar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		65219A07AADFD7377923B4782CFB5832 /* WBTabbar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WBTabbar.modulemap; sourceTree = "<group>"; };
+		66FDA1FD5D1AAFC5B4A9D738B68CE7AE /* WBTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBTabBar.h; path = WBTabbar/Classes/WBTabBar.h; sourceTree = "<group>"; };
+		68738DBE6612723F791DE490C07938A5 /* Pods_WBTabbar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WBTabbar_Example.framework; path = "Pods-WBTabbar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E31B396AF7B9F81FBDB1E5CCD03DBA2 /* WBTabBarConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBTabBarConfig.h; path = WBTabbar/Classes/WBTabBarConfig.h; sourceTree = "<group>"; };
+		7528727667B7626E2F4D28DC1316FC79 /* Pods-WBTabbar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WBTabbar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7AE923205AF77A0411F774817FCD965A /* Pods-WBTabbar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WBTabbar_Tests-dummy.m"; sourceTree = "<group>"; };
+		80D2B52DF5BE4A309870A9B02CB90A4D /* WBTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WBTabBarController.m; path = WBTabbar/Classes/WBTabBarController.m; sourceTree = "<group>"; };
+		8244530005C17EE4C814587C51DCE4CC /* Pods-WBTabbar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WBTabbar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		857AD10BC567ABDEF9ECA7DA0F07F822 /* TabbarButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TabbarButton.h; path = WBTabbar/Classes/TabbarButton.h; sourceTree = "<group>"; };
+		900272775F773DB242A483077986AECA /* WBTabbar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WBTabbar.xcconfig; sourceTree = "<group>"; };
+		946993DC41A73000CE8F9483D1489E41 /* TabBarCenterButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TabBarCenterButton.m; path = WBTabbar/Classes/TabBarCenterButton.m; sourceTree = "<group>"; };
+		95267E675D4BE9126F54950DAA855340 /* TabbarButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TabbarButton.m; path = WBTabbar/Classes/TabbarButton.m; sourceTree = "<group>"; };
+		99FD489D5F8A0311DF2CFD0AB536FD71 /* WBBadgeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WBBadgeView.m; path = WBTabbar/Classes/WBBadgeView.m; sourceTree = "<group>"; };
+		9F0DF33CB48833C27D7A30F067B1C770 /* UITabBarItem+BadgeColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+BadgeColor.m"; path = "WBTabbar/Classes/UITabBarItem+BadgeColor.m"; sourceTree = "<group>"; };
+		A02173873E968CD88E70E989D64370FD /* WBBadgeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBBadgeView.h; path = WBTabbar/Classes/WBBadgeView.h; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B57A95E97672CC65AB9D407F2C94C512 /* Pods_WBTabbar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WBTabbar_Tests.framework; path = "Pods-WBTabbar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B713412E845CF8614D25DC444A5AAA85 /* Pods-WBTabbar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBTabbar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BCF18B6A151AEA1F31132EE8151C5E35 /* Pods-WBTabbar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBTabbar_Example-Info.plist"; sourceTree = "<group>"; };
+		C6550A6A489F9077AB2DEB6800E6E5F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CF71E9E3374AF12EE44165B582B0438A /* Pods-WBTabbar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WBTabbar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D89B54C4E750B6211FB052553A054CA4 /* WBTabBarConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WBTabBarConfig.m; path = WBTabbar/Classes/WBTabBarConfig.m; sourceTree = "<group>"; };
+		D8DEA0E5A2380EBD34D7DB2D62316313 /* Pods-WBTabbar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBTabbar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9A7A8936E5A5D7F4C125CC0366267CE /* WBTabbar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WBTabbar.bundle; path = "WBTabbar-WBTabbar.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0152EAD71D63E7C81B551EF1C7CFA8A /* Pods-WBTabbar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBTabbar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E3ABD63D6A7B9D00153AB7036DBE113F /* Pods-WBTabbar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WBTabbar_Example.modulemap"; sourceTree = "<group>"; };
+		EDE481B0FE4B67C61833C95D49CF7C7F /* Pods-WBTabbar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WBTabbar_Tests.modulemap"; sourceTree = "<group>"; };
+		F871DA8645362B9C3035599D3E4E067E /* UITabBarItem+BadgeColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+BadgeColor.h"; path = "WBTabbar/Classes/UITabBarItem+BadgeColor.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		440A72ECBD63B47D784A03DE2B867794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6F024E5EEC1F97B52520758C67AE99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE03021233031A595DBBCF567FE9678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB58C25C8CC8B8D598296C9C50333917 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C8F5148F4910487519B0A8E1C24E8B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51846F8DCA202A11C46EE40DDEE868D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D30A29923DD292943A964C4555A05CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F2C77E1B02B2EFF8C326BFE0D604A05 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				033E67EC8C7C8B419565F2E980823CA4 /* ResourceBundle-WBTabbar-WBTabbar-Info.plist */,
+				65219A07AADFD7377923B4782CFB5832 /* WBTabbar.modulemap */,
+				900272775F773DB242A483077986AECA /* WBTabbar.xcconfig */,
+				4B62C5312ECF22031716F55C26AC2753 /* WBTabbar-dummy.m */,
+				42DC503BA8448EE788EE1CEF762267D3 /* WBTabbar-Info.plist */,
+				34206EE0577A29D5E749CB2E9E894FCF /* WBTabbar-prefix.pch */,
+				2B695455C08A540D56741528C8D4D31C /* WBTabbar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WBTabbar";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5434A731CF7A48374C2E45C4E1E953C2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFBBC2C0F7BAAAC0A48ECFC73D5C46E9 /* WBTabbar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		548C9EDDEC6B604910AEBEFE99F4B048 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9F1A5DCC17852A4072F5DAEA868650E /* Pods-WBTabbar_Example */,
+				F01D7132BE9C8B3E33DFA77EE9DACA4A /* Pods-WBTabbar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				5434A731CF7A48374C2E45C4E1E953C2 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				81EA589C282EC5C691FC4B1A29823DB6 /* Products */,
+				548C9EDDEC6B604910AEBEFE99F4B048 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81EA589C282EC5C691FC4B1A29823DB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68738DBE6612723F791DE490C07938A5 /* Pods_WBTabbar_Example.framework */,
+				B57A95E97672CC65AB9D407F2C94C512 /* Pods_WBTabbar_Tests.framework */,
+				D9A7A8936E5A5D7F4C125CC0366267CE /* WBTabbar.bundle */,
+				38EDDAF342065341B0BE571099FD2988 /* WBTabbar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AF64B1CA048FF16C1E5A931183D436B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A44E54C407DCCD4C4B2895944D90EB5 /* WBTabBar.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFBBC2C0F7BAAAC0A48ECFC73D5C46E9 /* WBTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				857AD10BC567ABDEF9ECA7DA0F07F822 /* TabbarButton.h */,
+				95267E675D4BE9126F54950DAA855340 /* TabbarButton.m */,
+				395D85F93098189644FEF0BC97A8C332 /* TabBarCenterButton.h */,
+				946993DC41A73000CE8F9483D1489E41 /* TabBarCenterButton.m */,
+				F871DA8645362B9C3035599D3E4E067E /* UITabBarItem+BadgeColor.h */,
+				9F0DF33CB48833C27D7A30F067B1C770 /* UITabBarItem+BadgeColor.m */,
+				A02173873E968CD88E70E989D64370FD /* WBBadgeView.h */,
+				99FD489D5F8A0311DF2CFD0AB536FD71 /* WBBadgeView.m */,
+				66FDA1FD5D1AAFC5B4A9D738B68CE7AE /* WBTabBar.h */,
+				09BD7B5721554E9905255096A90075E8 /* WBTabBar.m */,
+				6E31B396AF7B9F81FBDB1E5CCD03DBA2 /* WBTabBarConfig.h */,
+				D89B54C4E750B6211FB052553A054CA4 /* WBTabBarConfig.m */,
+				33A28242BCEE6EBD9B9623BB5AC77F6E /* WBTabBarController.h */,
+				80D2B52DF5BE4A309870A9B02CB90A4D /* WBTabBarController.m */,
+				F8FF44C84F035140ACDBFD52FE112152 /* Pod */,
+				8AF64B1CA048FF16C1E5A931183D436B /* Resources */,
+				1F2C77E1B02B2EFF8C326BFE0D604A05 /* Support Files */,
+			);
+			name = WBTabbar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E9F1A5DCC17852A4072F5DAEA868650E /* Pods-WBTabbar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E3ABD63D6A7B9D00153AB7036DBE113F /* Pods-WBTabbar_Example.modulemap */,
+				CF71E9E3374AF12EE44165B582B0438A /* Pods-WBTabbar_Example-acknowledgements.markdown */,
+				D8DEA0E5A2380EBD34D7DB2D62316313 /* Pods-WBTabbar_Example-acknowledgements.plist */,
+				10591049AA8CA30121F0210ECD0F0356 /* Pods-WBTabbar_Example-dummy.m */,
+				5DADDC09B63AE038095E1CEDE960899A /* Pods-WBTabbar_Example-frameworks.sh */,
+				BCF18B6A151AEA1F31132EE8151C5E35 /* Pods-WBTabbar_Example-Info.plist */,
+				20B17A3452A9D34CF99026A470E39D24 /* Pods-WBTabbar_Example-umbrella.h */,
+				B713412E845CF8614D25DC444A5AAA85 /* Pods-WBTabbar_Example.debug.xcconfig */,
+				2CA0D7F9353007D33BA578695D1441E7 /* Pods-WBTabbar_Example.release.xcconfig */,
+			);
+			name = "Pods-WBTabbar_Example";
+			path = "Target Support Files/Pods-WBTabbar_Example";
+			sourceTree = "<group>";
+		};
+		F01D7132BE9C8B3E33DFA77EE9DACA4A /* Pods-WBTabbar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EDE481B0FE4B67C61833C95D49CF7C7F /* Pods-WBTabbar_Tests.modulemap */,
+				7528727667B7626E2F4D28DC1316FC79 /* Pods-WBTabbar_Tests-acknowledgements.markdown */,
+				35DC0253BD1D8C2090D8B632FA6E4371 /* Pods-WBTabbar_Tests-acknowledgements.plist */,
+				7AE923205AF77A0411F774817FCD965A /* Pods-WBTabbar_Tests-dummy.m */,
+				1144BE5CAB327E224B4AD4CE2A3A2DAA /* Pods-WBTabbar_Tests-Info.plist */,
+				8244530005C17EE4C814587C51DCE4CC /* Pods-WBTabbar_Tests-umbrella.h */,
+				5F083BAC9F8F02A8112260DA98966DFB /* Pods-WBTabbar_Tests.debug.xcconfig */,
+				E0152EAD71D63E7C81B551EF1C7CFA8A /* Pods-WBTabbar_Tests.release.xcconfig */,
+			);
+			name = "Pods-WBTabbar_Tests";
+			path = "Target Support Files/Pods-WBTabbar_Tests";
+			sourceTree = "<group>";
+		};
+		F8FF44C84F035140ACDBFD52FE112152 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0D9AC9EDEA01A6033629A9E8772A41BD /* LICENSE */,
+				C6550A6A489F9077AB2DEB6800E6E5F4 /* README.md */,
+				536974A8F1913BC6AE87C440C3856FDA /* WBTabbar.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		26C12A4C73EA6523B38F3EB4378DF8DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCF0C9A2EC45685F52B284D3C139CC6 /* Pods-WBTabbar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4FE9D80A5CE451CB049FAC2C252A1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14E973670133F7CA6FBF4098377E2E0 /* TabbarButton.h in Headers */,
+				2F85AACE1827CB5AF2DA49FB43870D1C /* TabBarCenterButton.h in Headers */,
+				442E7B97CEC19AC280376643756E8E91 /* UITabBarItem+BadgeColor.h in Headers */,
+				7C2C1A3D017BEA1F1CA50D724DA8B968 /* WBBadgeView.h in Headers */,
+				D2EEA1CC794D67B60320F46B3E679E9C /* WBTabbar-umbrella.h in Headers */,
+				33FF400BF27A8FD3DBFF9CEDEBF0F3BC /* WBTabBar.h in Headers */,
+				EE13A1887839E40BF0DA627FE8819551 /* WBTabBarConfig.h in Headers */,
+				CB7B96E562B8DD65047EA5AA49D06F3A /* WBTabBarController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B6AB760B6B0B230380952B98B1D596 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D42DEF855A1E24EAA71D5561F1B82EA /* Pods-WBTabbar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26B86AB5A1ACC8703FE70CC4000AE910 /* Pods-WBTabbar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A11045C4F70539DAEFF99222433A639D /* Build configuration list for PBXNativeTarget "Pods-WBTabbar_Tests" */;
+			buildPhases = (
+				26C12A4C73EA6523B38F3EB4378DF8DF /* Headers */,
+				97D65AE0079F49164CD3808488E789D9 /* Sources */,
+				A51846F8DCA202A11C46EE40DDEE868D /* Frameworks */,
+				3D001EC5EB1C3D8360B71D63B8E58254 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7054573A5DD348F95A728643E5AFA51F /* PBXTargetDependency */,
+			);
+			name = "Pods-WBTabbar_Tests";
+			productName = "Pods-WBTabbar_Tests";
+			productReference = B57A95E97672CC65AB9D407F2C94C512 /* Pods_WBTabbar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2DC2F5F7AC7E29760E0982D504626250 /* WBTabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8338598AFC74608E6A486DDF4E89F1 /* Build configuration list for PBXNativeTarget "WBTabbar" */;
+			buildPhases = (
+				3A4FE9D80A5CE451CB049FAC2C252A1B /* Headers */,
+				7F2847F1A8D4B854E0E0FCAB45BA4048 /* Sources */,
+				440A72ECBD63B47D784A03DE2B867794 /* Frameworks */,
+				7668E656BD08ED0B5F2ACE903B98C478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85BF4D5546F8D158A20919DAD5F4CD95 /* PBXTargetDependency */,
+			);
+			name = WBTabbar;
+			productName = WBTabbar;
+			productReference = 38EDDAF342065341B0BE571099FD2988 /* WBTabbar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A11B24DB8C24D5EE832166D91DAA10EE /* WBTabbar-WBTabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99CCFD12FE14AC7BBCA0C718E47BF8B1 /* Build configuration list for PBXNativeTarget "WBTabbar-WBTabbar" */;
+			buildPhases = (
+				7A7A5E6916B21E5C16AA8823FEB9E453 /* Sources */,
+				7C8F5148F4910487519B0A8E1C24E8B9 /* Frameworks */,
+				448B4DACE3694B6FB1DF47AC06614AFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WBTabbar-WBTabbar";
+			productName = "WBTabbar-WBTabbar";
+			productReference = D9A7A8936E5A5D7F4C125CC0366267CE /* WBTabbar.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		BAF139E2E50301AC535C5565D6AC86B0 /* Pods-WBTabbar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96B6FD64EB6F335BF7BA2B6442E3AD3F /* Build configuration list for PBXNativeTarget "Pods-WBTabbar_Example" */;
+			buildPhases = (
+				C9B6AB760B6B0B230380952B98B1D596 /* Headers */,
+				41ED4F233A03E1630F8193CABB1B2BF9 /* Sources */,
+				4BE03021233031A595DBBCF567FE9678 /* Frameworks */,
+				EE6D3B702B5C053F09052C9EBE935372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79B4735272737FBB482E1084D6BA8476 /* PBXTargetDependency */,
+			);
+			name = "Pods-WBTabbar_Example";
+			productName = "Pods-WBTabbar_Example";
+			productReference = 68738DBE6612723F791DE490C07938A5 /* Pods_WBTabbar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 81EA589C282EC5C691FC4B1A29823DB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAF139E2E50301AC535C5565D6AC86B0 /* Pods-WBTabbar_Example */,
+				26B86AB5A1ACC8703FE70CC4000AE910 /* Pods-WBTabbar_Tests */,
+				2DC2F5F7AC7E29760E0982D504626250 /* WBTabbar */,
+				A11B24DB8C24D5EE832166D91DAA10EE /* WBTabbar-WBTabbar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D001EC5EB1C3D8360B71D63B8E58254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448B4DACE3694B6FB1DF47AC06614AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61368A178917F8F780B3B109E34F12C /* WBTabBar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7668E656BD08ED0B5F2ACE903B98C478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D9B154363AFD17968F12FA6CA79D88 /* WBTabbar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6D3B702B5C053F09052C9EBE935372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41ED4F233A03E1630F8193CABB1B2BF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2C4140525004ED1B8136844D13E509 /* Pods-WBTabbar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A7A5E6916B21E5C16AA8823FEB9E453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2847F1A8D4B854E0E0FCAB45BA4048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EFB48B7A08B49A55DAE84A074C9B4B /* TabbarButton.m in Sources */,
+				B838E3FF7C28A6EA3C11CCE6A482406F /* TabBarCenterButton.m in Sources */,
+				665746C246A0DDBF33A90B10343DB343 /* UITabBarItem+BadgeColor.m in Sources */,
+				1BAED853BC657AB0DA35FB6DF1102B09 /* WBBadgeView.m in Sources */,
+				06DB4AFB761273117DB594887A97371F /* WBTabbar-dummy.m in Sources */,
+				C268A7297F545D32AFAC8DF51FAE0F44 /* WBTabBar.m in Sources */,
+				354B6D65900F1DF8C0C537D756A4BE13 /* WBTabBarConfig.m in Sources */,
+				547B561672329B5CA43E4F21FAF3E6E9 /* WBTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D65AE0079F49164CD3808488E789D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0367DA1C4AFB48B68BB4C4E89F06010C /* Pods-WBTabbar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7054573A5DD348F95A728643E5AFA51F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WBTabbar_Example";
+			target = BAF139E2E50301AC535C5565D6AC86B0 /* Pods-WBTabbar_Example */;
+			targetProxy = C5D923C89F2A11E3EC8C6706D898B740 /* PBXContainerItemProxy */;
+		};
+		79B4735272737FBB482E1084D6BA8476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WBTabbar;
+			target = 2DC2F5F7AC7E29760E0982D504626250 /* WBTabbar */;
+			targetProxy = 67D2465B5F21D58606E1F9EA46F74BEF /* PBXContainerItemProxy */;
+		};
+		85BF4D5546F8D158A20919DAD5F4CD95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WBTabbar-WBTabbar";
+			target = A11B24DB8C24D5EE832166D91DAA10EE /* WBTabbar-WBTabbar */;
+			targetProxy = C37DE128D391073797A4546FDCC12EC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E925978BC05BF1E4B79D7F7A2992ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0152EAD71D63E7C81B551EF1C7CFA8A /* Pods-WBTabbar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WBTabbar_Tests/Pods-WBTabbar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WBTabbar_Tests/Pods-WBTabbar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		149BCA37D4A416F64FF55DFA8DFB2084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 900272775F773DB242A483077986AECA /* WBTabbar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WBTabbar/WBTabbar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WBTabbar/WBTabbar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WBTabbar/WBTabbar.modulemap";
+				PRODUCT_MODULE_NAME = WBTabbar;
+				PRODUCT_NAME = WBTabbar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2187BA0DBD8CB2CE2751B14BA8D032F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CA0D7F9353007D33BA578695D1441E7 /* Pods-WBTabbar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WBTabbar_Example/Pods-WBTabbar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WBTabbar_Example/Pods-WBTabbar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D9F9FC8993D352A3F56D2E1C690DD06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F083BAC9F8F02A8112260DA98966DFB /* Pods-WBTabbar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WBTabbar_Tests/Pods-WBTabbar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WBTabbar_Tests/Pods-WBTabbar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B36709B2A7C696B067BEF80DFFA3E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 900272775F773DB242A483077986AECA /* WBTabbar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WBTabbar";
+				INFOPLIST_FILE = "Target Support Files/WBTabbar/ResourceBundle-WBTabbar-WBTabbar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WBTabbar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		89314AF18E472F6C14B34842635902A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B713412E845CF8614D25DC444A5AAA85 /* Pods-WBTabbar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WBTabbar_Example/Pods-WBTabbar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WBTabbar_Example/Pods-WBTabbar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		95A6E6D2E6B1549FCE48115412C6F877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 900272775F773DB242A483077986AECA /* WBTabbar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WBTabbar";
+				INFOPLIST_FILE = "Target Support Files/WBTabbar/ResourceBundle-WBTabbar-WBTabbar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WBTabbar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B8F4E6DF9572D13C46C001B708509B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 900272775F773DB242A483077986AECA /* WBTabbar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WBTabbar/WBTabbar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WBTabbar/WBTabbar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WBTabbar/WBTabbar.modulemap";
+				PRODUCT_MODULE_NAME = WBTabbar;
+				PRODUCT_NAME = WBTabbar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE01AF5D395AE305A54D518A9B774D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */,
+				BE01AF5D395AE305A54D518A9B774D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8338598AFC74608E6A486DDF4E89F1 /* Build configuration list for PBXNativeTarget "WBTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149BCA37D4A416F64FF55DFA8DFB2084 /* Debug */,
+				B8F4E6DF9572D13C46C001B708509B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96B6FD64EB6F335BF7BA2B6442E3AD3F /* Build configuration list for PBXNativeTarget "Pods-WBTabbar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89314AF18E472F6C14B34842635902A9 /* Debug */,
+				2187BA0DBD8CB2CE2751B14BA8D032F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99CCFD12FE14AC7BBCA0C718E47BF8B1 /* Build configuration list for PBXNativeTarget "WBTabbar-WBTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B36709B2A7C696B067BEF80DFFA3E8C /* Debug */,
+				95A6E6D2E6B1549FCE48115412C6F877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A11045C4F70539DAEFF99222433A639D /* Build configuration list for PBXNativeTarget "Pods-WBTabbar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D9F9FC8993D352A3F56D2E1C690DD06 /* Debug */,
+				0E925978BC05BF1E4B79D7F7A2992ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

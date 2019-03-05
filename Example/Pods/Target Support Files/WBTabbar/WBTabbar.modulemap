@@ -1,0 +1,6 @@
+framework module WBTabbar {
+  umbrella header "WBTabbar-umbrella.h"
+
+  export *
+  module * { export * }
+}

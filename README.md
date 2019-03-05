@@ -1,44 +1,29 @@
 # WBTabbar
-自定义TabBar，【闲鱼、微博、微信】快速完成主流App框架搭建
-基于系统UITabBarController
-特点：
-1	低耦合，易删除
-2 即使加号按钮超出了tabbar的区域，超出部分依然能响应点击事件
-3 支持自定义动画
-4 支持角标小红点 badgeValue
 
+[![CI Status](https://img.shields.io/travis/WangBoX/WBTabbar.svg?style=flat)](https://travis-ci.org/WangBoX/WBTabbar)
+[![Version](https://img.shields.io/cocoapods/v/WBTabbar.svg?style=flat)](https://cocoapods.org/pods/WBTabbar)
+[![License](https://img.shields.io/cocoapods/l/WBTabbar.svg?style=flat)](https://cocoapods.org/pods/WBTabbar)
+[![Platform](https://img.shields.io/cocoapods/p/WBTabbar.svg?style=flat)](https://cocoapods.org/pods/WBTabbar)
 
+## Example
 
-使用简单：
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-/**
- * 添加子控制器
- * @param Controller          需管理的子控制器
- * @param title               底部文字
- * @param imageName           未选中的图片名
- * @param selectedImageName   选中的图片名
- */
-- (void)addChildController:(id)Controller
-                        title:(NSString *)title
-                    imageName:(NSString *)imageName
-            selectedImageName:(NSString *)selectedImageName;
+## Requirements
 
-/**
- * 设置中间按钮
- * @param Controller          需管理的子控制器
- * @param title               底部文字
- * @param imageName           未选中的图片名
- * @param selectedImageName   选中的图片名
- */
-- (void)addCenterController:(id)Controller
-                      bulge:(BOOL)bulge
-                     title:(NSString *)title
-                 imageName:(NSString *)imageName
-         selectedImageName:(NSString *)selectedImageName;
+## Installation
 
-/**
- * 隐藏tabbar
- * @param hidden            是否隐藏
- * @param animated          是否执行动画
- */
-- (void)setWBTabBarHidden:(BOOL)hidden animated:(BOOL)animated;
+WBTabbar is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'WBTabbar'
+```
+
+## Author
+
+WangBoX, 563915318@qq.com
+
+## License
+
+WBTabbar is available under the MIT license. See the LICENSE file for more info.

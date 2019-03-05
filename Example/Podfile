@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WBTabbar_Example' do
+  pod 'WBTabbar', :path => '../'
+
+  target 'WBTabbar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
